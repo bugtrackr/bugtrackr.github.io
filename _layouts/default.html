@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% include head.html %}
+<body>
+
+	{% include header.html %}
+	<div class="main">
+		{% include sidebar-left.html %}
+
+		<section class="main-left">
+			<h1>{{ page.title }}{% if page.subtitle %} <small>{{ page.subtitle }}</small>{% endif %}</h1>
+			<div class="div-table-issues">
+				<div class="div-issues">
+					<div>{{ content }}</div>
+					<div class="div-preview-issue"></div>
+					{% include footer.html %}
+				</div>
+				{% if page.rightsidebar %}{% include sidebar-right.html %}{% endif %}
+			</div>
+		</section>
+	</div>
+
+	{% include foot.html %}
+
+	</body>
+
+</html>

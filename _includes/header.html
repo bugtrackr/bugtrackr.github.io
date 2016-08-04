@@ -1,0 +1,20 @@
+<!--[if lt IE 8]>
+	<div class="alert alert-error">Your browser is obsolete: <a href="http://www.browserchoice.eu">upgrade or change it</a>.</div>
+<![endif]-->
+
+<header>
+	<div class="header-inner">
+		<a href="javascript:;" class="a-menu">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<span class="brand">
+			<a href="{{ site.url }}/index.html">Bumpy Booby</a>
+			{% if page.project %}
+				<span class="slash">/</span>
+				{{ page.project }}
+			{% endif %}
+		</span>
+	</div>
+</header>

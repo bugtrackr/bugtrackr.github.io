@@ -1,0 +1,26 @@
+language: ruby
+rvm:
+- 2.1
+
+install: gem install jekyll html-proofer
+script: sed -i -- 's/https:\/\/bugtrackr.eu/http:\/\/127.0.0.1:4000/g' _config.yml
+script: jekyll build && htmlproofer ./_site
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - gh-pages # test the gh-pages branch
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+notifications:
+  webhooks:
+    urls:
+      - https://bugs.spamty.eu/index.php?page=api&project=api-docs&XMODE=travisci
+    on_success: never
+    on_failure: always
+    on_start: never

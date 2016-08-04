@@ -1,0 +1,11 @@
+# Site settings
+title: Bumpy Booby
+description: "Bumpy Booby is a simple, responsive and highly customizable PHP bug tracking system."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# exclude some files
+exclude: ["README.md", "CNAME", "vendor"]
