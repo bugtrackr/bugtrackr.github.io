@@ -9,9 +9,9 @@ layout: default
 permalink: /index.html
 gh-file: index.md
 ---
-Bumpy Booby is a simple, responsive and highly customizable PHP bug tracking system. [Try the demo](http://bumpybooby.oss.spamty.eu/)
+Bumpy Booby is a simple, responsive and highly customizable PHP bug tracking system. [Try the demo](https://demo.bugtrackr.eu/)
 
 ## Get It
 
-You should download the [latest release](https://github.com/Spamty/Bumpy-Booby/releases/latest) and [install](Install) the software.
+You should download the [latest release](https://github.com/bugtrackr/bumpy-booby/releases/latest) and [install]({{site.url}}/wiki/install/) the software.
 

@@ -11,7 +11,7 @@ gh-file: /wiki/config.md
 ---
 ## API config
 
-To [configure the API](https://github.com/Spamty/Bumpy-Booby/wiki/API) you have to enable it on the settings page and then change the access settings manually in `./database/config_api.php`. There is a sample configuration file `./sample_config/config_api.php`.
+To [configure the API]({{site.url}}/api/) you have to enable it on the settings page and then change the access settings manually in `./database/config_api.php`. There is a sample configuration file `./sample_config/config_api.php`.
 
 ## Captcha config
 

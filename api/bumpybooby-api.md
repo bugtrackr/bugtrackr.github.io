@@ -6,7 +6,7 @@ project: API
 layout: default
 # rightsidebar: 1
 
-permalink: /api/bumpybooby-api/index.html
+permalink: /api/bumpybooby/index.html
 gh-file: /api/bumpybooby-api.md
 ---
 The API has different modes. This is the default mode.
