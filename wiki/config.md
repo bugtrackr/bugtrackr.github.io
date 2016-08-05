@@ -9,11 +9,17 @@ layout: default
 permalink: /wiki/config/index.html
 gh-file: /wiki/config.md
 ---
-You can do all changes by opening `./index.php?page=settings` in your browser. The configuration is stored in `./database/config.php` (encrypted).
+## API config
 
 To [configure the API](https://github.com/Spamty/Bumpy-Booby/wiki/API) you have to enable it on the settings page and then change the access settings manually in `./database/config_api.php`. There is a sample configuration file `./sample_config/config_api.php`.
 
+## Captcha config
+
 You can also edit the Captcha which is displayed when a user who is not logged in wants to create a new issue. you can do this with `./database/config_captcha.php` file. There is a sample configuration file `./sample_config/config_captcha.php`. Refer [to this website](https://www.phpcaptcha.org/documentation/customizing-securimage/) for more information about changing the captcha.
+
+## Bumpy Booby config
+
+You can do all changes by opening `./index.php?page=settings` in your browser. The configuration is stored in `./database/config.php` (encrypted).
 
 ### Global settings
 
@@ -33,7 +39,12 @@ You can also edit the Captcha which is displayed when a user who is not logged i
 
 #### Projects
 
+You can add projects and reorder them.
+
 #### Uploads
+
+ * __Maximum size per upload__ Each uploaded file can't exceed this size.
+ * __Allocated space per user__ A user can't upload other files once he reached this limit. This limit does not apply to none logged users if they are allowed to upload files.
 
 ### Appearance
 

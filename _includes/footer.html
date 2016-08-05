@@ -1,1 +1,8 @@
-<div class="pager">Contact | Legal Notice | License</div>
+<div class="pager">
+{% if page.gh-file %}
+	<a href="https://github.com/Spamty/Bumpy-Booby-website/blob/gh-pages/{{ page.gh-file }}">
+{% else %}
+	<a href="https://github.com/Spamty/Bumpy-Booby-website/">
+{% endif %}
+Edit on GitHub</a>
+</div>
