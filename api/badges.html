@@ -22,24 +22,27 @@ https://example.com/index.php?page=api&amp;project=PROJECTNAME&amp;XMODE=badge
 
 <h2 id="authorization">Authorization</h2>
 
-<p>Authorization is done with GET parameters called <code>api_username</code>.</p>
-
-<p>Open <code>database/api_config.php</code> and add the following to the <code>$API_ACCESS</code> array:</p>
+<p>Open <code>database/api_config.php</code> and add the following to the <code>$API_ACCESS</code> array to enable the corresponding projects:</p>
 
 <pre class="prettyprint lang=php">
-"badge-USERNAME" =&gt; array(
-	"mode" =&gt; "badge", // XMODE badge
-	"projects" =&gt; "PROJECTNAME", // comma seperated list of projects or "ALL_PROJECTS"
+"badge" =&gt; array(
+	// list projects that have badges available:
+	"default" =&gt; true,
+	"2nd-project" =&gt; true,
 ),
 </pre>
 
-<p>You can specify the <strong>projects</strong> that can be used by this user. Like: <code>default,project-1,other-project</code>. Or use "ALL_PROJECTS".</p>
+<p>You can also enable all projects:</p>
 
-<p>Pass <code>api_username</code> parameter with the username you created in the config file (without the <em>badge-</em> prefix) as HTTP GET parameters.</p>
+<pre class="prettyprint lang=php">
+"badge" =&gt; array(
+	"ALL_PROJECTS" =&gt; true,
+),
+</pre>
 
 <h2 id="image">Image</h2>
 
-<p>When opening the URL you will be redirected to a badge image powered by Shields.io. For example:</p>
+<p>When opening the URL you will get an image powered by Shields.io. For example something like:</p>
 
 <pre class="prettyprint">
 https://img.shields.io/badge/issues-36-red.png
@@ -50,7 +53,6 @@ https://img.shields.io/badge/issues-36-red.png
 <p>You can customize the image with these optional GET parameters (see also <a href="http://shields.io/#your-badge">http://shields.io/#your-badge</a>):
 <ul>
 	<li><code>shields_color</code>: Badge color. <code>blue</code>, <code>ff69b4</code>, … Default is <code>red</code>.</li>
-	<li><code>shields_format</code>: Image format (png/svg/…)</li>
 	<li><code>shields_label</code>: Override the default left-hand-side text</li>
 	<li><code>shields_style</code>: Badge style (plastic/flat/flat-square/social)</li>
 </ul></p>
