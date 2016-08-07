@@ -1,0 +1,61 @@
+---
+title: Badges
+subtitle: 
+project: API
+
+layout: default
+# rightsidebar: 1
+
+permalink: /api/badges/index.html
+gh-file: /api/badges.html
+---
+
+<p>You can use the API to get a badge for your GitHub README file. The badge displays the number of issues.</p>
+
+<h2 id="url">URL</h2>
+
+<pre class="prettyprint">
+https://example.com/index.php?page=api&amp;project=PROJECTNAME&amp;XMODE=badge
+</pre>
+
+<p>Replace <code>PROJECTNAME</code> with the project you want to use. You can choose the badge-mode by setting the the GET parameter <code>XMODE</code> of your request to <code>badge</code>.</p>
+
+<h2 id="authorization">Authorization</h2>
+
+<p>Authorization is done with GET parameters called <code>api_username</code>.</p>
+
+<p>Open <code>database/api_config.php</code> and add the following to the <code>$API_ACCESS</code> array:</p>
+
+<pre class="prettyprint lang=php">
+"badge-USERNAME" =&gt; array(
+	"mode" =&gt; "badge", // XMODE badge
+	"projects" =&gt; "PROJECTNAME", // comma seperated list of projects or "ALL_PROJECTS"
+),
+</pre>
+
+<p>You can specify the <strong>projects</strong> that can be used by this user. Like: <code>default,project-1,other-project</code>. Or use "ALL_PROJECTS".</p>
+
+<p>Pass <code>api_username</code> parameter with the username you created in the config file (without the <em>badge-</em> prefix) as HTTP GET parameters.</p>
+
+<h2 id="image">Image</h2>
+
+<p>When opening the URL you will be redirected to a badge image powered by Shields.io. For example:</p>
+
+<pre class="prettyprint">
+https://img.shields.io/badge/issues-36-red.png
+</pre>
+
+<h2 id="customization">Customization</h2>
+
+<p>You can customize the image with these optional GET parameters (see also <a href="http://shields.io/#your-badge">http://shields.io/#your-badge</a>):
+<ul>
+	<li><code>shields_color</code>: Badge color. <code>blue</code>, <code>ff69b4</code>, … Default is <code>red</code>.</li>
+	<li><code>shields_format</code>: Image format (png/svg/…)</li>
+	<li><code>shields_label</code>: Override the default left-hand-side text</li>
+	<li><code>shields_style</code>: Badge style (plastic/flat/flat-square/social)</li>
+</ul></p>
+<p>You can also filter the issues that are displayed with these parameters:
+<ul>
+	<li><code>open</code>: Filter by issue states (open/closed/all). Default is open.</li>
+	<li><code>label</code>: Filter by issue labels.</li>
+</ul></p>

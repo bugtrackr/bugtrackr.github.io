@@ -9,7 +9,7 @@ layout: default
 permalink: /api/index.html
 gh-file: /api/overview.md
 ---
-The API has some features:
+The API has these modes:
 
  * [Default API]({{ site.url }}/api/bumpybooby/) to create new issues, edit them, and more.
  * [Travis CI API]({{ site.url }}/api/travis-ci/) to create a new issue when a build with Travis CI fails.
