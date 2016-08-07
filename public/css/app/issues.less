@@ -1,5 +1,46 @@
 .div-preview-issue {
 	padding: 16px 0 16px 0;
+	.table { display: table; }
+	.cell-left, .cell-right { display: table-cell; vertical-align: middle; }
+	.a-id-issue {
+		display: inline-block;
+		padding: 6px 12px;
+		margin: 0 20px 0 0;
+		font-size: 2em;
+		font-weight: 900;
+		color: #fff;
+		.border-radius(0 12px 12px 0);
+		.transition(all .2s ease-in-out);
+		span {
+			font-size: 0.7em;
+		}
+	}
+	.a-summary {
+		line-height: 1em;
+		font-size: 1.8em;
+		font-weight: 900;
+		color: @text-black;
+		&:hover { color: @text-black-hover; }
+	}
+	.closed {
+		text-decoration: line-through;
+	}
+	.grey {
+		display: inline-block;
+		padding-left: 8px;
+		a {
+			color: @text-black;
+			font-weight: 900;
+			&:hover { color: @text-black-hover; }
+		}
+	}
+	.icon-comment { .opacity(80); }
+	.a-nb-comment:hover .icon-comment { .opacity(100); }
+	&:hover {
+		.a-id-issue { padding-right: 24px; margin-right: 8px; }
+		background: darken(@bgd-grey, 5%);
+	}
+	.transition(all .2s ease-in-out);
 	border-bottom: 4px solid darken(@bgd-grey, 10%);
 }
 
