@@ -2,7 +2,7 @@
 title: Bumpy Booby
 description: "Bumpy Booby is a simple, responsive and highly customizable PHP bug tracking system."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://docs.bugtrackr.eu" # the base hostname & protocol for your site
+url: "https://bugtrackr.eu" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

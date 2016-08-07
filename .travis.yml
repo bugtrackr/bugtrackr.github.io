@@ -20,7 +20,7 @@ sudo: false # route your build to the container-based infrastructure for a faste
 notifications:
   webhooks:
     urls:
-      - https://bugs.spamty.eu/index.php?page=api&project=api-docs&XMODE=travisci
+      - https://bb.bugtrackr.eu/index.php?page=api&project=docs&XMODE=travisci
     on_success: never
     on_failure: always
     on_start: never
