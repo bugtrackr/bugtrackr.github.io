@@ -23,4 +23,4 @@ notifications:
       - https://bb.bugtrackr.eu/index.php?page=api&project=docs&XMODE=travisci
     on_success: never
     on_failure: always
-    on_start: always
+    on_start: never
