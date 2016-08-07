@@ -15,3 +15,8 @@ gh-file: /wiki/install.md
 4. You can (but you do not have to) delete all files that are listed in `./DELETE_LIST.txt`, they are useless.
 5. Open `./index.php` in your browser
 6. [Configure Bumpy Booby]({{site.url}}/wiki/config/) and enjoy!
+
+## master branch
+
+You can also clone from [master branch](https://github.com/bugtrackr/bumpy-booby/tree/master). 
+This branch should be stable but this cannot be guaranteed. So it is recommended to use the [latest release](https://github.com/bugtrackr/bumpy-booby/releases).

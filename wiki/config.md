@@ -9,17 +9,9 @@ layout: default
 permalink: /wiki/config/index.html
 gh-file: /wiki/config.md
 ---
-## API config
+You can do all changes by opening `./index.php?page=settings` in your browser. The configuration is stored in `./database/config.php` but this file is encrypted so you cannot change it manually.
 
-To [configure the API]({{site.url}}/api/) you have to enable it on the settings page and then change the access settings manually in `./database/config_api.php`. There is a sample configuration file `./sample_config/config_api.php`.
-
-## Captcha config
-
-You can also edit the Captcha which is displayed when a user who is not logged in wants to create a new issue. you can do this with `./database/config_captcha.php` file. There is a sample configuration file `./sample_config/config_captcha.php`. Refer [to this website](https://www.phpcaptcha.org/documentation/customizing-securimage/) for more information about changing the captcha.
-
-## Bumpy Booby config
-
-You can do all changes by opening `./index.php?page=settings` in your browser. The configuration is stored in `./database/config.php` (encrypted).
+See also our documentation to [configure the API]({{site.url}}/api/) and [configure the Captcha]({{site.url}}/wiki/captcha/).
 
 ### Global settings
 

@@ -1,0 +1,96 @@
+---
+title: Captcha Configuration
+subtitle: 
+project: wiki
+
+layout: default
+# rightsidebar: 1
+
+permalink: /wiki/captcha/index.html
+gh-file: /wiki/captcha.html
+---
+<p>You can also edit the Captcha which is displayed when a user who is not logged in wants to create a new issue.</p>
+
+<h2>Config file</h2>
+<p>You can configure the captcha in `./database/config_captcha.php` file. If this file does not exist create it newly with this content: </p>
+<pre class="prettyprint lang=php">
+&lt;?php
+return array(
+// DO NOT CHANGE the PHP session name to use!
+'session_name'     => 'BumpyBooby',
+// put your configuration after this line
+);
+?&gt;
+</pre>
+<p>Have a look at our <a href="https://github.com/bugtrackr/bumpy-booby/blob/master/sample_config/config_captcha.php">sample config file</a>.</p>
+
+<h2>Customizing the captcha</h2>
+<p>Since we are using the Securimage Captcha you can also <a href="https://www.phpcaptcha.org/documentation/customizing-securimage/">refer to their documentation</a>.</p>
+
+<h3>Captcha</h3>
+<pre class="prettyprint lang=php">
+// number of characters for captcha code
+'code_length' => 8, 
+</pre>
+<p>You may need to adjust the image size when using a longer code:</p>
+<pre class="prettyprint lang=php">
+// image size
+'image_width'      => 215,
+'image_height'     => 80, 
+</pre>
+
+<h3>Character set</h3>
+<p>These characters are used for the captcha. You should exclude characters that look very similar to others to to reduce user frustration.</p>
+<pre class="prettyprint lang=php">
+'charset' => "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghklmnprstuvwyz0123456789",
+// make it case sensitive for maximum protection
+'case_sensitive' => true,
+</pre>
+<p>You can use any UTF-8 charset:</p>
+<pre class="prettyprint lang=php">
+'charset' => "абвгдeжзийклмнопрстуфхцчшщъьюяАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЮЯ",
+</pre>
+
+<h3>Changing colors</h3>
+<pre class="prettyprint lang=php">
+// hex color for image background
+'image_bg_color'   => '#F9F9F9',
+// hex color for captcha text
+'text_color'       => '#808080',
+// hex color for lines over text
+'line_color'       => '#808080',
+</pre>
+
+<h3>Difficulty</h3>
+<p>You can make the Captcha more difficult by changing the number of lines to draw over text and the distortion.</p>
+<pre class="prettyprint lang=php">
+// number of lines to draw over text
+'num_lines'		=> 4,
+// The level of noise (random dots) to place on the image
+'noise_level'	=> 2,
+// 1.0 = high distortion, higher numbers = more distortion
+'perturbation'	=> 0.8,
+</pre>
+<p>You could also randomize these values.</p>
+<pre class="prettyprint lang=php">
+// number of lines to draw over text
+'num_lines'		=> rand(3,5),
+// The level of noise (random dots) to place on the image
+'noise_level'	=> rand(2,8),
+// 1.0 = high distortion, higher numbers = more distortion
+'perturbation'	=> rand(3,9)/10,
+</pre>
+
+<h3>Signature</h3>
+<p>A signature is just a small text at the bottom right corner of every captcha image. This may be your domain name, a short phrase or any other text you may want to display on the image.</p>
+<pre class="prettyprint lang=php">
+// text color
+'signature_color'  => '#CBDC62',
+// Signature text
+'image_signature'  => 'bugtrackr.eu',
+</pre>
+
+
+
+
+
