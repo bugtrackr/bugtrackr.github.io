@@ -9,6 +9,8 @@ layout: default
 permalink: /changelog/index.html
 gh-file: /pages/changelog.md
 ---
+You can see and download all releases (including pre-releases) [on GitHub](https://github.com/bugtrackr/bumpy-booby/releases).
+
 ## v1.0.4
 Captchas are available for new issues, comments and sign up. You can activate them for not logged in users in the settings.
 
