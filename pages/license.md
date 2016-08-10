@@ -80,6 +80,8 @@ Licensed under under the terms of the GNU Lesser General Public
 License; either version 2.1 of the License, or (at your option) 
 any later version.
 
+[Visit website](https://htmlpurifier.org)
+
 ### PHP Markdown
 
 Copyright (c) 2004-2015 by Michel Fortin.
