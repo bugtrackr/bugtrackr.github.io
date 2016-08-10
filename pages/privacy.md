@@ -9,3 +9,4 @@ layout: default
 permalink: /privacy/index.html
 gh-file: /pages/privacy.md
 ---
+We do not track our users.
