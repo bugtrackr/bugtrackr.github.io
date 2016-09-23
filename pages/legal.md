@@ -9,3 +9,7 @@ layout: default
 permalink: /legal/index.html
 gh-file: /pages/legal.md
 ---
+
+This software project is maintained by [philipp](https://github.com/philipp-r) and [bugtrackr community](https://github.com/bugtrackr).
+
+If you have any questions open a (public) [support ticket](https://bb.bugtrackr.eu/index.php?project=support&page=issues).
