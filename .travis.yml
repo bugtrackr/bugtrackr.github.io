@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.1
+- 2.3.1
 
 install: gem install jekyll html-proofer
 script: sed -i -- 's/https:\/\/docs.bugtrackr.eu/http:\/\/127.0.0.1:4000/g' _config.yml
