@@ -9,27 +9,27 @@ layout: default
 permalink: /license/index.html
 gh-file: /pages/license.md
 ---
-## Contents
+## A. Contents
 
- * [A. Contents](#contents)
- * [B. Bumpy Booby](#bumpy-booby)
+ * [A. Contents](#a-contents)
+ * [B. Bumpy Booby](#b-bumpy-booby)
   * [GNU GENERAL PUBLIC LICENSE](#gnu-general-public-license)
- * [C. Original Software](#original-software)
+ * [C. Original Software](#c-original-software)
   * [MIT LICENSE](#mit-license)
- * [D. Included software](#included-software)
-  * [I. Securimage](#securimage)
-  * [II. html5shiv](#html5shiv)
-  * [III. jQuery](#jquery)
-  * [IV. Respond.js](#respond-js)
-  * [V. HTML Purifier](#html-purifier)
-  * [VI. PHP Markdown](#php-markdown)
+ * [D. Included software](#d-included-software)
+  * [I. Securimage](#i-securimage)
+  * [II. html5shiv](#ii-html5shiv)
+  * [III. jQuery](#iii-jquery)
+  * [IV. Respond.js](#iv-respondjs)
+  * [V. HTML Purifier](#v-html-purifier)
+  * [VI. PHP Markdown](#vi-php-markdown)
 
 
 
 
 
 
-## A. Bumpy Booby
+## B. Bumpy Booby
 
 Copyright (C) 2016 [Philipp](https://github.com/philipp-r)
 
@@ -727,7 +727,7 @@ please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 
 
-## B. Original Software
+## C. Original Software
 
 This software is based on the work of Pierre Monchalin.
 The [original software](https://github.com/piero-la-lune/Bumpy-Booby) 
@@ -761,7 +761,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
-## C. Included software
+## D. Included software
 
 The license above applies not to the following included software.
 
