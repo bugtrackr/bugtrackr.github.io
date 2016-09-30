@@ -11,6 +11,15 @@ gh-file: /pages/changelog.md
 ---
 You can see and download all releases (including pre-releases) [on GitHub](https://github.com/bugtrackr/bumpy-booby/releases).
 
+## v1.1
+You can choose a CSS theme from the settings page or create your own.
+Place a .css file in `./public/css` folder and select this theme from *Settings > Appearance > Manage display > Theme*.
+
+Each issue can have a milestone to keep track of your planned software releases.
+
+[View source](https://github.com/bugtrackr/bumpy-booby/tree/v1.1) | 
+[Download](https://github.com/bugtrackr/bumpy-booby/releases/tag/v1.1)
+
 ## v1.0.4
 Captchas are available for new issues, comments and sign up. You can activate them for not logged in users in the settings.
 
