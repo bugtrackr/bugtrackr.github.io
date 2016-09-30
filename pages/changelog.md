@@ -14,8 +14,6 @@ You can see and download all releases (including pre-releases) [on GitHub](https
 ## v1.0.4
 Captchas are available for new issues, comments and sign up. You can activate them for not logged in users in the settings.
 
-[see issues](https://bb.bugtrackr.eu/index.php?milestone=v1.0.4&open=all&project=bumpy-booby&page=issues)
-
 [View source](https://github.com/bugtrackr/bumpy-booby/tree/v1.0.4) | 
 [Download](https://github.com/bugtrackr/bumpy-booby/releases/tag/v1.0.4)
 
@@ -23,16 +21,12 @@ Captchas are available for new issues, comments and sign up. You can activate th
 * Improved the [Badge API](https://docs.bugtrackr.eu/api/badges/)
 * Better API logs
 
-[see issues](https://bb.bugtrackr.eu/index.php?milestone=v1.0.3&open=all&project=bumpy-booby&page=issues)
-
 [View source](https://github.com/bugtrackr/bumpy-booby/tree/v1.0.3) | 
 [Download](https://github.com/bugtrackr/bumpy-booby/releases/tag/v1.0.3)
 
 ## v1.0.2
 * update links for [new docs](https://docs.bugtrackr.eu/)
 * Show version on settings page
-
-[see issues](https://bb.bugtrackr.eu/index.php?milestone=v1.0.2&open=all&project=bumpy-booby&page=issues)
 
 [View source](https://github.com/bugtrackr/bumpy-booby/tree/v1.0.2) | 
 [Download](https://github.com/bugtrackr/bumpy-booby/releases/tag/v1.0.2)
