@@ -31,7 +31,8 @@ gh-file: /pages/license.md
 
 ## B. Bumpy Booby
 
-Copyright (C) 2016 [Philipp](https://github.com/philipp-r)
+Copyright (C) 2016 by [bugtrackr team](https://github.com/bugtrackr) 
+& [contributors](https://github.com/bugtrackr/bumpy-booby/graphs/contributors)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
