@@ -9,7 +9,7 @@ Created with Jekyll and GitHub Pages.
 
 ## GNU GPL License
 
-Copyright (C) 2016 for this documentation by 
+Copyright (C) 2016 for the documentation by 
 [bugtrackr team](https://github.com/bugtrackr) & 
 [contributors](https://github.com/bugtrackr/docs/graphs/contributors)
 
