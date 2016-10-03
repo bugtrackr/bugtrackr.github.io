@@ -769,8 +769,12 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## D. Included software
 
-Bumpy Booby contains some software from other developers.
-The license above does not apply to the following included software.
+Bumpy Booby contains some software from other developers. Especially 
+the files located in the vendor directory are externally maintained 
+libraries used by this software which have their own licenses. 
+
+Please read them, as their terms may differ from the license above 
+that does not apply to the following included software.
 
 ### I. Securimage
 
