@@ -71,7 +71,7 @@ cache(function(data, match, sendBadge, request) {
   var options = {
     method: 'GET',
     json: true,
-    // example: https://bb.bugtrackr.eu/?page=api&project=default&XMODE=badge&mode=shields
+    // example: https://example.com/?page=api&project=default&XMODE=badge&mode=shields
     uri: bb_protocol+'://'+bb_domain+'/?page=api&project='+bb_project+'&XMODE=badge&mode=shields&open='+bb_open
   };
   var badgeData = getBadgeData("issues", data);

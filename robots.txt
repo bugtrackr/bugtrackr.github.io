@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://bugtrackr.eu/sitemap.xml
+Sitemap: https://bugtrackr.github.io/sitemap.xml
