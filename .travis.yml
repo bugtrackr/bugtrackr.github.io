@@ -17,10 +17,3 @@ env:
 
 sudo: false # route your build to the container-based infrastructure for a faster build
 
-notifications:
-  webhooks:
-    urls:
-      - https://bb.bugtrackr.eu/index.php?page=api&project=docs&XMODE=travisci
-    on_success: never
-    on_failure: always
-    on_start: never
