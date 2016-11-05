@@ -34,14 +34,14 @@ Captchas are available for new issues, comments and sign up. You can activate th
 [Download](https://github.com/bugtrackr/bumpy-booby/releases/tag/v1.0.4)
 
 ## v1.0.3
-* Improved the [Badge API](https://docs.bugtrackr.eu/api/badges/)
+* Improved the Badge API
 * Better API logs
 
 [View source](https://github.com/bugtrackr/bumpy-booby/tree/v1.0.3) | 
 [Download](https://github.com/bugtrackr/bumpy-booby/releases/tag/v1.0.3)
 
 ## v1.0.2
-* update links for [new docs](https://docs.bugtrackr.eu/)
+* update links for new docs
 * Show version on settings page
 
 [View source](https://github.com/bugtrackr/bumpy-booby/tree/v1.0.2) | 
