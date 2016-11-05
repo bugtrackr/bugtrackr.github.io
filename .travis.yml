@@ -3,7 +3,7 @@ rvm:
 - 2.3.1
 
 install: gem install jekyll html-proofer
-script: sed -i -- 's/https:\/\/docs.bugtrackr.eu/http:\/\/127.0.0.1:4000/g' _config.yml
+script: sed -i -- 's/https:\/\/bugtrackr.github.io/http:\/\/127.0.0.1:4000/g' _config.yml
 script: jekyll build && htmlproofer ./_site
 
 # branch whitelist, only for GitHub Pages

@@ -1,6 +1,6 @@
 # Bumpy Booby docs
 
-[![Build Status](https://travis-ci.org/bugtrackr/docs.svg?branch=gh-pages)](https://travis-ci.org/bugtrackr/docs)
+[![Build Status](https://travis-ci.org/bugtrackr/bugtrackr.github.io.svg?branch=master)](https://travis-ci.org/bugtrackr/bugtrackr.github.io)
 [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg?style=plastic)](https://bugtrackr.github.io/license/)
 
 This is the Bumpy Booby website and documentation.
