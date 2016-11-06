@@ -1,7 +1,10 @@
 # Bumpy Booby docs
 
+[![Issues](https://img.shields.io/github/issues/bugtrackr/bugtrackr.github.io.svg)](https://github.com/bugtrackr/bugtrackr.github.io/issues)
 [![Build Status](https://travis-ci.org/bugtrackr/bugtrackr.github.io.svg?branch=master)](https://travis-ci.org/bugtrackr/bugtrackr.github.io)
-[![GPL License](https://img.shields.io/badge/license-GPL-blue.svg?style=plastic)](https://bugtrackr.github.io/license/)
+
+[![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)](https://bugtrackr.github.io/license/)
+[![Bitcoin donations](https://img.shields.io/badge/tips---%3E_bitcoin-ff69b4.svg)](https://blockchain.info/address/1PuhHFRSqYyxbtLmvoF3D1LkoY2mVENCia)
 
 This is the Bumpy Booby website and documentation.
 
