@@ -5,6 +5,7 @@
 
 [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)](https://bugtrackr.github.io/license/)
 [![Bitcoin donations](https://img.shields.io/badge/tips---%3E_bitcoin-ff69b4.svg)](https://blockchain.info/address/1PuhHFRSqYyxbtLmvoF3D1LkoY2mVENCia)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/bugtrackr)
 
 This is the Bumpy Booby website and documentation.
 
