@@ -1,6 +1,6 @@
 ---
 title: Badges
-subtitle: 
+subtitle:
 project: API
 
 layout: default
@@ -20,7 +20,7 @@ https://example.com/index.php?page=api&amp;project=PROJECTNAME&amp;XMODE=badge
 <p>Replace <code>PROJECTNAME</code> with the project you want to use. You can choose the badge-mode by setting the the GET parameter <code>XMODE</code> of your request to <code>badge</code>.</p>
 
 <h2 id="authorization">Enable the API</h2>
-<p>To enable the Bumpy Booby API log in and go to <i>Settings -> API</i> and choose <i>Enabled</i>.</p>
+<p>To enable the Nireus API log in and go to <i>Settings -> API</i> and choose <i>Enabled</i>.</p>
 <p>Open <code>database/api_config.php</code> and add the following to the <code>$API_ACCESS</code> array to enable badges for the corresponding projects:</p>
 
 <pre class="prettyprint lang=php">
@@ -55,13 +55,13 @@ https://example.com/index.php?page=api&amp;project=PROJECTNAME&amp;XMODE=badge
 
 <h2 id="customization">Shields.io Server</h2>
 
-<p><b>Only for experienced users:</b> You can also use the badges with a <a href="https://github.com/badges/shields">shields server</a> 
+<p><b>Only for experienced users:</b> You can also use the badges with a <a href="https://github.com/badges/shields">shields server</a>
 by adding the following code to your <i>server.js</i> file:</p>
 <pre class="prettyprint">
 // Add this to server.js file after the line "// Vendors."
-// Bumpy Booby integration
-// usage: /bumpybooby /https /DOMAIN /PROJECT /issues /(open|closed|all) .format
-camp.route(/^\/bumpybooby\/(http(?:s)?)\/(.+)\/(.+)\/issues\/(open|closed|all)\.(svg|png|gif|jpg|json)$/,
+// Nireus integration
+// usage: /nireus /https /DOMAIN /PROJECT /issues /(open|closed|all) .format
+camp.route(/^\/nireus\/(http(?:s)?)\/(.+)\/(.+)\/issues\/(open|closed|all)\.(svg|png|gif|jpg|json)$/,
 cache(function(data, match, sendBadge, request) {
   var bb_protocol = match[1];  // eg, `https`.
   var bb_domain = match[2];  // eg, `example.com`.
@@ -98,13 +98,13 @@ cache(function(data, match, sendBadge, request) {
 
 <p>The badges can be accessed with this format:</p>
 <pre class="prettyprint">
-https://shields.io/bumpybooby/PROTOCOL/EXAMPLE.COM/PROJECT/issues/STATE.FORMAT
+https://shields.io/nireus/PROTOCOL/EXAMPLE.COM/PROJECT/issues/STATE.FORMAT
 </pre>
 <p>Where you have to replace:
 <ul>
 	<li><code>shields.io</code> with your server domain/IP</li>
-	<li><code>PROTOCOL</code> with the protocol of your Bumpy Booby installation (either <i>http</i> or <i>https</i>)</li>
-	<li><code>EXAMPLE.COM</code> with the domain of your Bumpy Booby installation</li>
+	<li><code>PROTOCOL</code> with the protocol of your Nireus installation (either <i>http</i> or <i>https</i>)</li>
+	<li><code>EXAMPLE.COM</code> with the domain of your Nireus installation</li>
 	<li><code>PROJECT</code> with the project name</li>
 	<li><code>STATE</code> with the issue state (either <i>open</i> or <i>closed</i> or <i>all</i>)</li>
 	<li><code>FORMAT</code> with the badge format (svg|png|gif|jpg|json)</li>
@@ -112,5 +112,5 @@ https://shields.io/bumpybooby/PROTOCOL/EXAMPLE.COM/PROJECT/issues/STATE.FORMAT
 
 <p>You can try this out with our server <code>https://shields-bumpybooby.herokuapp.com/</code> that is built <a href="https://github.com/bugtrackr/shields">from this repo</a>.
 See the <a href="http://shields-bumpybooby.herokuapp.com/try.html">server info page</a>.<br>
-Do not use this server for production. We cannot guarantee any uptime and Heroku shuts down the server every 30 mins. If you want to use the shields server <a href="https://github.com/badges/shields/blob/master/INSTALL.md#start-the-server">set up your own</a> 
+Do not use this server for production. We cannot guarantee any uptime and Heroku shuts down the server every 30 mins. If you want to use the shields server <a href="https://github.com/badges/shields/blob/master/INSTALL.md#start-the-server">set up your own</a>
 (it's very easy and free <a href="https://github.com/badges/shields/blob/master/INSTALL.md#making-your-heroku-badge-server">to use Heroku</a>).</p>

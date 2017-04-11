@@ -12,7 +12,7 @@ gh-file: /pages/license.md
 ## A. Contents
 
  * [A. Contents](#a-contents)
- * [B. Bumpy Booby](#b-bumpy-booby)
+ * [B. Nireus](#b-bumpy-booby)
   * [GNU GENERAL PUBLIC LICENSE](#gnu-general-public-license)
  * [C. Original Software](#c-original-software)
   * [MIT LICENSE](#mit-license)
@@ -29,11 +29,11 @@ gh-file: /pages/license.md
 
 
 
-## B. Bumpy Booby
+## B. Nireus
 
 Copyright (C) 2016 for the software by 
 [bugtrackr team](https://github.com/bugtrackr) & 
-[contributors](https://github.com/bugtrackr/bumpy-booby/graphs/contributors)
+[contributors](https://github.com/bugtrackr/Nireus/graphs/contributors)
 
 Copyright (C) 2016 for the documentation by 
 [bugtrackr team](https://github.com/bugtrackr) & 
@@ -769,7 +769,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## D. Included software
 
-Bumpy Booby contains some software from other developers. Especially 
+Nireus contains some software from other developers. Especially 
 the files located in the vendor directory are externally maintained 
 libraries used by this software which have their own licenses. 
 

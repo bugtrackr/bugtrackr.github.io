@@ -1,6 +1,6 @@
 # Site settings
-title: Bumpy Booby
-description: "Bumpy Booby is a simple, responsive and highly customizable PHP bug tracking system."
+title: Nireus
+description: "Nireus is a simple, responsive and highly customizable PHP bug tracking system."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bugtrackr.github.io" # the base hostname & protocol for your site
 

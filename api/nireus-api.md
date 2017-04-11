@@ -1,13 +1,13 @@
 ---
-title: Bumpy Booby API
+title: Nireus API
 subtitle: default
 project: API
 
 layout: default
 # rightsidebar: 1
 
-permalink: /api/bumpybooby/index.html
-gh-file: /api/bumpybooby-api.md
+permalink: /api/nireus/index.html
+gh-file: /api/nireus-api.md
 ---
 The API has different modes. This is the default mode.
 
@@ -92,7 +92,7 @@ Example of an successful request response:
 ```
 {
   "status":1,
-  "statusDetails":"Bumpy Booby returned: 1",
+  "statusDetails":"Nireus returned: 1",
   "ID":25
 }
 ```

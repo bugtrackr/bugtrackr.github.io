@@ -19,7 +19,7 @@ See also our documentation to [configure the API]({{site.url}}/api/) and [config
 
  * __Name__ that will be displayed on the header of each page
  * __Url__ of your installation
- * __Url rewriting__: Leave this field empty to disable url rewriting (URLs with GET parameters (questionmark and ampersands in URL)). Otherwise, it should contain the path to Bumpy Booby folder (started and ended with a "/"), relative to the domain name.
+ * __Url rewriting__: Leave this field empty to disable url rewriting (URLs with GET parameters (questionmark and ampersands in URL)). Otherwise, it should contain the path to Nireus folder (started and ended with a "/"), relative to the domain name.
  * __CDN Url__: Leave this field empty to disable CDN (= Content Delivery Network) option. You can use a CDN to deliver CSS, JavaScript and Images from a faster server. Make sure to host all files from `./public` folder on your CDN. To enable, put the URL of your CDN here (you can use this free & ready-to-go CDN: `https://cdn.rawgit.com/bugtrackr/bumpy-booby/master/`). 
  * __Introduction__: It will be displayed on the home page. It will be parsed with the Markdown syntax. Note: if there is only one project named “default”, the home page is automatically redirected to the project dashboard, and this text will not be displayed.
  * __Email__ of admin. Leave this field empty to disable email notifications. Otherwise, this address will be used as sender when sending an email notification.
